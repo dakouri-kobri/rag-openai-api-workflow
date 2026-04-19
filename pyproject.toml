@@ -7,7 +7,12 @@ authors = [
     { name = "Dakouri Kobri", email = "dakouri.m.kobri@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "openai>=2.32.0",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+]
 
 [project.scripts]
 rag-openai-api-workflow = "rag_openai_api_workflow:main"
@@ -15,3 +20,11 @@ rag-openai-api-workflow = "rag_openai_api_workflow:main"
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "pytest>=9.0.3",
+    "ruff>=0.15.11",
+]
