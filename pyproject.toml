@@ -1,7 +1,7 @@
 [project]
 name = "rag-openai-api-workflow"
 version = "0.1.0"
-description = "Add your description here"
+description = "A production-style RAG workflow using OpenAI vector stores, semantic search, metadata filtering, and grounded responses."
 readme = "README.md"
 authors = [
     { name = "Dakouri Kobri", email = "dakouri.m.kobri@gmail.com" }
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-rag-openai-api-workflow = "rag_openai_api_workflow:main"
+rag-openai = "rag_openai_api_workflow:main"
 
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
