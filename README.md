@@ -75,7 +75,7 @@ Large language models are more useful when they can retrieve relevant informatio
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/dakouri-kobri/rag-openai-api-workflow.git
 cd rag-openai-api-workflow
 ```
 
