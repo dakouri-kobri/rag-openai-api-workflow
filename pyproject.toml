@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-rag-openai = "rag_openai_api_workflow:main"
+rag-openai = "rag_openai_api_workflow.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
